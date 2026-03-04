@@ -85,8 +85,9 @@ function App() {
             <h3 className="text-xl font-bold text-gray-900 mb-4">{t.about.skills}</h3>
             <div className="flex flex-wrap gap-2">
               {['JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'Git', 'Tailwind CSS', 'Docker', 'HTML', 'CSS', 'PHP', 'MySQL', 'MongoDB','C', 'C++', 'C#', 'Firebase', 'SQLite',
-                'MariaDB','Express','JWT', 'CORS', 'LowDB', 'REST', 'Next.js','Prisma', 'Django','Angular','TypeScript', 'Android', 'Apache', 'Paypal','Transbank',
-                'WordPress','Bootstrap','Ajax','Chart.js ','Axios','Cloudinary','Bcrypt.js ','NestJS','Multer','Winston','Helmet','Passport','Vue.js'
+                'MariaDB','Express','JWT', 'CORS', 'LowDB', 'API REST', 'Next.js','Prisma', 'Django','Angular','TypeScript', 'Android', 'Apache', 'Paypal','Transbank',
+                'WordPress','Bootstrap','Ajax','Chart.js ','Axios','Cloudinary','Bcrypt.js ','NestJS','Multer','Winston','Helmet','Passport','Vue.js','PostgreSQL',
+                'XML', 'JSON', 'jQuery', 'Spring Boot', 'UI/UX', 'CI/CD'
               ].map((skill) => (
                 <span key={skill} className="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-sm font-medium">
                   {skill}
