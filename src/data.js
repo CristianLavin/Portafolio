@@ -6,8 +6,8 @@ export const translations = {
       contact: "Contacto",
     },
     hero: {
-      greeting: "Hola, soy Cristian Lavin",
-      role: "Ingeniero Civil Informático & Full Stack Software Engineer",
+      greeting: "Hola, soy",
+      role: "Ingeniero Informático & Full Stack Software Engineer",
       description: "Especializado en la creación de aplicaciones web escalables y la automatización de procesos de negocio críticos.",
       cta: "Ver Proyectos"
     },
