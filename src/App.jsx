@@ -52,7 +52,7 @@ function App() {
             {t.hero.description}
           </p>
           <div className="mt-8 flex justify-center space-x-4">
-            <a href="#projects" className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 transition-all shadow-lg hover:shadow-xl">
+            <a href="projects" className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 transition-all shadow-lg hover:shadow-xl">
               {t.hero.cta}
             </a>
             <div className="flex space-x-4 items-center ml-4">
@@ -71,7 +71,7 @@ function App() {
       </section>
 
       {/* About Section */}
-      <section id="#about" className="py-20 bg-white">
+      <section id="about" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center mb-12">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
