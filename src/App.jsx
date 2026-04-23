@@ -23,8 +23,8 @@ function App() {
             </div>
             <div className="flex items-center space-x-4">
               <div className="hidden md:flex space-x-8">
-                <a href="about" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.about}</a>
-                <a href="projects" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.projects}</a>
+                <a href="/about" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.about}</a>
+                <a href="/projects" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.projects}</a>  
               </div>
               <button
                 onClick={toggleLang}
@@ -52,7 +52,7 @@ function App() {
             {t.hero.description}
           </p>
           <div className="mt-8 flex justify-center space-x-4">
-            <a href="projects" className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 transition-all shadow-lg hover:shadow-xl">
+            <a href="/projects" className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 transition-all shadow-lg hover:shadow-xl">
               {t.hero.cta}
             </a>
             <div className="flex space-x-4 items-center ml-4">
