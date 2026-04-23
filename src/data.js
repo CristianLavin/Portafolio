@@ -58,7 +58,7 @@ export const projects = [
     id: 1,
     title: "Video Juego",
     image: "https://res.cloudinary.com/da4q9jiqr/image/upload/v1776980987/Video-Juego_qr5ylu.png",
-    link: "https://video-juego.vercel.com.app",
+    link: "https://video-juego.cristian-lavin.dev",
     review: {
       es: "Este proyecto es un videojuego arcade en el que controlas una nave espacial, disparas a los enemigos y tratas de sobrevivir el mayor tiempo posible.",
       en: "This project is a video arcade game where you control a spaceship, shoot at enemies, and try to survive for as long as possible."
