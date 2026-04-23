@@ -33,7 +33,7 @@ export const translations = {
     },
     hero: {
       greeting: "Hi, I am",
-      role: "Civil Informatics Engineer & Full Stack Software Engineer",
+      role: "Informatics Engineer & Full Stack Software Engineer",
       description: "Specialized in building scalable web applications and automating critical business processes.",
       cta: "View Projects"
     },
