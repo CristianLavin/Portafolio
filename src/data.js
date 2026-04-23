@@ -56,15 +56,16 @@ export const translations = {
 export const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    image: "https://placehold.co/600x400/2563eb/ffffff?text=E-Commerce",
+    title: "Video Juego",
+    image: "https://res.cloudinary.com/da4q9jiqr/image/upload/v1776980987/Video-Juego_qr5ylu.png",
+    link: "https://video-juego.vercel.com.app",
     review: {
-      es: "Una plataforma de comercio electrónico completa con carrito de compras, pagos y panel de administración.",
-      en: "A complete e-commerce platform with shopping cart, payments, and admin dashboard."
+      es: "Este proyecto es un videojuego arcade en el que controlas una nave espacial, disparas a los enemigos y tratas de sobrevivir el mayor tiempo posible.",
+      en: "This project is a video arcade game where you control a spaceship, shoot at enemies, and try to survive for as long as possible."
     },
     architecture: {
-      es: "React, Node.js, Express, MongoDB",
-      en: "React, Node.js, Express, MongoDB"
+      es: "HTML5, CSS3, JavaScript, Canvas API",
+      en: "HTML5, CSS3, JavaScript, Canvas API"
     }
   },
   {
@@ -131,5 +132,5 @@ export const projects = [
       es: "HTML, CSS, JavaScript",
       en: "HTML, CSS, JavaScript"
     }
-  }  
+  }
 ];
