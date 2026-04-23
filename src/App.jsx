@@ -23,8 +23,8 @@ function App() {
             </div>
             <div className="flex items-center space-x-4">
               <div className="hidden md:flex space-x-8">
-                <a href="#about" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.about}</a>
-                <a href="#projects" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.projects}</a>
+                <a href="about" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.about}</a>
+                <a href="projects" className="text-gray-600 hover:text-indigo-600 transition-colors">{t.nav.projects}</a>
               </div>
               <button
                 onClick={toggleLang}
