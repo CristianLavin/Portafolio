@@ -84,9 +84,9 @@ function App() {
             </p>
             <h3 className="text-xl font-bold text-gray-900 mb-4">{t.about.skills}</h3>
             <div className="flex flex-wrap gap-2">
-              {['JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'Git', 'Tailwind CSS', 'Docker', 'HTML', 'CSS', 'PHP', 'MySQL', 'MongoDB','C', 'C++', 'C#', 'Firebase', 'SQLite',
-                'MariaDB','Express','JWT', 'CORS', 'LowDB', 'API REST', 'Next.js','Prisma', 'Django','Angular','TypeScript', 'Android', 'Apache', 'Paypal','Transbank',
-                'WordPress','Bootstrap','Ajax','Chart.js ','Axios','Cloudinary','Bcrypt.js ','NestJS','Multer','Winston','Helmet','Passport','Vue.js','PostgreSQL',
+              {['JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'Git', 'Tailwind CSS', 'Docker', 'HTML', 'CSS', 'PHP', 'MySQL', 'MongoDB', 'C', 'C++', 'C#', 'Firebase', 'SQLite',
+                'MariaDB', 'Express', 'JWT', 'CORS', 'LowDB', 'API REST', 'Next.js', 'Prisma', 'Django', 'Angular', 'TypeScript', 'Android', 'Apache', 'Paypal', 'Transbank',
+                'WordPress', 'Bootstrap', 'Ajax', 'Chart.js ', 'Axios', 'Cloudinary', 'Bcrypt.js ', 'NestJS', 'Multer', 'Winston', 'Helmet', 'Passport', 'Vue.js', 'PostgreSQL',
                 'XML', 'JSON', 'jQuery', 'Spring Boot', 'UI/UX', 'CI/CD'
               ].map((skill) => (
                 <span key={skill} className="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-sm font-medium">
@@ -117,9 +117,9 @@ function App() {
                     alt={project.title}
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                    <button className="opacity-0 group-hover:opacity-100 bg-white text-gray-900 p-2 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="opacity-0 group-hover:opacity-100 bg-white text-gray-900 p-2 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:bg-indigo-50">
                       <ExternalLink size={20} />
-                    </button>
+                    </a>
                   </div>
                 </div>
                 <div className="p-6 flex-1 flex flex-col">

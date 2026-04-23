@@ -6,15 +6,15 @@ export const translations = {
       contact: "Contacto",
     },
     hero: {
-      greeting: "Hola, soy",
-      role: "Desarrollador Full Stack",
-      description: "Me apasiona construir aplicaciones web modernas, escalables y eficientes. Con experiencia en frontend y backend, transformo ideas en realidad digital.",
-      cta: "Ver Proyectos",
+      greeting: "Hola, soy Cristian Lavin",
+      role: "Ingeniero Civil Informático & Full Stack Software Engineer",
+      description: "Especializado en la creación de aplicaciones web escalables y la automatización de procesos de negocio críticos.",
+      cta: "Ver Proyectos"
     },
     about: {
-      title: "Sobre Mí",
-      content: "Soy un desarrollador Full Stack con una sólida comprensión de las tecnologías web. Disfruto resolviendo problemas complejos y aprendiendo nuevas herramientas. Mi enfoque está en escribir código limpio, mantenible y eficiente.",
-      skills: "Habilidades Técnicas:",
+      title: "Sobre mí",
+      content: "Mi enfoque va más allá de escribir código: busco la arquitectura más eficiente para resolver problemas reales. Combino una sólida base en ingeniería con tecnologías modernas para construir soluciones end-to-end, desde el diseño de bases de datos hasta la experiencia de usuario. Siempre priorizo la optimización de recursos y la mejora continua.",
+      skills: "Stack Tecnológico"
     },
     projects: {
       title: "Mis Proyectos",
@@ -33,14 +33,14 @@ export const translations = {
     },
     hero: {
       greeting: "Hi, I am",
-      role: "Full Stack Developer",
-      description: "I am passionate about building modern, scalable, and efficient web applications. With experience in frontend and backend, I transform ideas into digital reality.",
-      cta: "View Projects",
+      role: "Civil Informatics Engineer & Full Stack Software Engineer",
+      description: "Specialized in building scalable web applications and automating critical business processes.",
+      cta: "View Projects"
     },
     about: {
-      title: "About Me",
-      content: "I am a Full Stack developer with a strong understanding of web technologies. I enjoy solving complex problems and learning new tools. My focus is on writing clean, maintainable, and efficient code.",
-      skills: "Technical Skills:",
+      title: "About me",
+      content: "My focus goes beyond writing code: I look for the most efficient architecture to solve real-world problems. I combine a solid engineering foundation with modern technologies to build end-to-end solutions, from database design to the user experience. I always prioritize resource optimization and continuous improvement.",
+      skills: "Tech Stack"
     },
     projects: {
       title: "My Projects",
@@ -92,5 +92,44 @@ export const projects = [
       es: "HTML, CSS, JavaScript",
       en: "HTML, CSS, JavaScript"
     }
-  }
+  },
+  {
+    id: 4,
+    title: "E-commerce Platform",
+    image: "https://placehold.co/600x400/2563eb/ffffff?text=E-Commerce",
+    review: {
+      es: "Una plataforma de comercio electrónico completa con carrito de compras, pagos y panel de administración.",
+      en: "A complete e-commerce platform with shopping cart, payments, and admin dashboard."
+    },
+    architecture: {
+      es: "React, Node.js, Express, MongoDB",
+      en: "React, Node.js, Express, MongoDB"
+    }
+  },
+  {
+    id: 5,
+    title: "Task Management App",
+    image: "https://placehold.co/600x400/16a34a/ffffff?text=Task+App",
+    review: {
+      es: "Aplicación para gestionar tareas diarias con funcionalidad de arrastrar y soltar.",
+      en: "Application to manage daily tasks with drag and drop functionality."
+    },
+    architecture: {
+      es: "Vue.js, Firebase, Tailwind CSS",
+      en: "Vue.js, Firebase, Tailwind CSS"
+    }
+  },
+  {
+    id: 6,
+    title: "Portfolio V1",
+    image: "https://placehold.co/600x400/9333ea/ffffff?text=Portfolio",
+    review: {
+      es: "Mi primer portafolio personal mostrando mis primeros pasos en el desarrollo web.",
+      en: "My first personal portfolio showcasing my first steps in web development."
+    },
+    architecture: {
+      es: "HTML, CSS, JavaScript",
+      en: "HTML, CSS, JavaScript"
+    }
+  }  
 ];
