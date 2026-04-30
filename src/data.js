@@ -70,15 +70,16 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Task Management App",
-    image: "https://placehold.co/600x400/16a34a/ffffff?text=Task+App",
+    title: "Chat App",
+    image: "https://res.cloudinary.com/da4q9jiqr/image/upload/v1777507859/Captura_de_pantalla_2026-04-29_201045_exutqd.png",
+    link: "https://chat.cristian-lavin.dev",
     review: {
-      es: "Aplicación para gestionar tareas diarias con funcionalidad de arrastrar y soltar.",
-      en: "Application to manage daily tasks with drag and drop functionality."
+      es: "Aplicación de chat en tiempo real con autenticación, salas grupales, llamadas, sistema de amigos y funciones de IA para texto e imágenes.",
+      en: "Real-time chat application featuring authentication, group rooms, calls, a friends system, and AI integration for text and image generation."
     },
     architecture: {
-      es: "Vue.js, Firebase, Tailwind CSS",
-      en: "Vue.js, Firebase, Tailwind CSS"
+      es: "React, Node.js, Express, Socket.IO, MongoDB Atlas, Tailwind CSS",
+      en: "React, Node.js, Express, Socket.IO, MongoDB Atlas, Tailwind CSS"
     }
   },
   {
