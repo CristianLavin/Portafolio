@@ -84,54 +84,15 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Portfolio V1",
-    image: "https://placehold.co/600x400/9333ea/ffffff?text=Portfolio",
+    title: "Proximamente",
+    image: "https://res.cloudinary.com/da4q9jiqr/image/upload/v1777507859/Coming-soon_exutqd.png",
     review: {
-      es: "Mi primer portafolio personal mostrando mis primeros pasos en el desarrollo web.",
-      en: "My first personal portfolio showcasing my first steps in web development."
+      es: "Proximamente",
+      en: "Coming soon."
     },
     architecture: {
-      es: "HTML, CSS, JavaScript",
-      en: "HTML, CSS, JavaScript"
+      es: "Proximamente",
+      en: "Coming soon."
     }
   },
-  {
-    id: 4,
-    title: "E-commerce Platform",
-    image: "https://placehold.co/600x400/2563eb/ffffff?text=E-Commerce",
-    review: {
-      es: "Una plataforma de comercio electrónico completa con carrito de compras, pagos y panel de administración.",
-      en: "A complete e-commerce platform with shopping cart, payments, and admin dashboard."
-    },
-    architecture: {
-      es: "React, Node.js, Express, MongoDB",
-      en: "React, Node.js, Express, MongoDB"
-    }
-  },
-  {
-    id: 5,
-    title: "Task Management App",
-    image: "https://placehold.co/600x400/16a34a/ffffff?text=Task+App",
-    review: {
-      es: "Aplicación para gestionar tareas diarias con funcionalidad de arrastrar y soltar.",
-      en: "Application to manage daily tasks with drag and drop functionality."
-    },
-    architecture: {
-      es: "Vue.js, Firebase, Tailwind CSS",
-      en: "Vue.js, Firebase, Tailwind CSS"
-    }
-  },
-  {
-    id: 6,
-    title: "Portfolio V1",
-    image: "https://placehold.co/600x400/9333ea/ffffff?text=Portfolio",
-    review: {
-      es: "Mi primer portafolio personal mostrando mis primeros pasos en el desarrollo web.",
-      en: "My first personal portfolio showcasing my first steps in web development."
-    },
-    architecture: {
-      es: "HTML, CSS, JavaScript",
-      en: "HTML, CSS, JavaScript"
-    }
-  }
 ];
