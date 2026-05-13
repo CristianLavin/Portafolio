@@ -87,7 +87,7 @@ function App() {
               {['JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'Git', 'Tailwind CSS', 'Docker', 'HTML', 'CSS', 'PHP', 'MySQL', 'MongoDB', 'C', 'C++', 'C#', 'Firebase', 'SQLite',
                 'MariaDB', 'Express', 'JWT', 'CORS', 'LowDB', 'API REST', 'Next.js', 'Prisma', 'Django', 'Angular', 'TypeScript', 'Android', 'Apache', 'Paypal', 'Transbank',
                 'WordPress', 'Bootstrap', 'Ajax', 'Chart.js ', 'Axios', 'Cloudinary', 'Bcrypt.js ', 'NestJS', 'Multer', 'Winston', 'Helmet', 'Passport', 'Vue.js', 'PostgreSQL',
-                'XML', 'JSON', 'jQuery', 'Spring Boot', 'UI/UX', 'CI/CD'
+                'XML', 'JSON', 'jQuery', 'Spring Boot', 'UI/UX', 'CI/CD', 'Visual Basic', 'Eclipse', 'Android Studio','Visual Studio Code','Trae', 'Oracle','Windows Server','Linux'
               ].map((skill) => (
                 <span key={skill} className="px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-sm font-medium">
                   {skill}
