@@ -56,16 +56,16 @@ export const translations = {
 export const projects = [
   {
     id: 1,
-    title: "",
-    image: "",
-    link: "",
+    title: "Dulce Osadía",
+    image: "https://res.cloudinary.com/da4q9jiqr/image/upload/v1785208079/Captura_de_pantalla_2026-07-27_230549_gzxg5b.png", // Reemplazar con tu URL o ruta
+    link: "https://dulce-osadia.cristian-lavin.dev",
     review: {
-      es: "",
-      en: ""
+      es: "Aplicación web integral para una pyme chilena dedicada a la venta de chocolates artesanales. Unifica un e-commerce para clientes con pagos en línea y un panel operativo interno para el control de inventario y la planificación de la producción basada en recetas.",
+      en: "Comprehensive web application for a Chilean SME dedicated to the sale of handmade chocolates. It unifies a customer e-commerce platform with online payments and an internal operational dashboard for inventory control and recipe-based production planning."
     },
     architecture: {
-      es: "",
-      en: ""
+      es: "Backend monolítico en PHP 8.2 renderizado del lado del servidor, con base de datos MySQL en Aiven y acceso de datos vía PDO. Frontend construido con HTML, CSS y JavaScript vanilla. Desplegado en Render mediante Docker e integrado con APIs de Transbank Webpay Plus, PHPMailer y Cloudinary.",
+      en: "Monolithic PHP 8.2 backend with server-side rendering, using a MySQL database hosted on Aiven and data access via PDO. Frontend built with HTML, CSS, and vanilla JavaScript. Deployed on Render using Docker and integrated with Transbank Webpay Plus, PHPMailer, and Cloudinary APIs."
     }
   },
   {
